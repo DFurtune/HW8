@@ -1,12 +1,12 @@
 body {
   position: relative;
-  width: 1440px;
+  width: 100%;
   height: 900px;
   display: flex;
 }
 aside {
   background-color: black;
-  width: 132px;
+  width: 9.16%;
   height: 852px;
   border-radius: 24px;
   margin-left: 32px;
@@ -39,7 +39,7 @@ aside li:last-child {
 }
 
 header {
-  width: 620px;
+  width: 43.05%;
   height: 160px;
   background: #f5f5f7;
   border-radius: 14px;
@@ -71,28 +71,32 @@ header p {
 }
 .Josh-img {
   position: absolute;
-  width: 175px;
+  width: 12.15%;
   height: 191px;
   margin-left: 40%;
   margin-top: 1.75%;
 }
-.my-course {
-  width: 500.26px;
+.my-learning {
+  position: absolute;
+  display: flex;
+  margin-top: 240px;
+  margin-left: 236px;
+}
+.my-courses {
+  width: 83%;
   height: 80px;
   background: #f5f5f7;
   border-radius: 14px;
-  margin-top: 240px;
   position: absolute;
-  margin-left: 236px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.my-course img:first-child {
+.my-courses img:first-child {
   width: 32px;
   height: 32px;
 }
-.my-course span p:first-child {
+.my-courses span p:first-child {
   font-family: "Baloo Bhai 2";
   font-style: normal;
   font-weight: bold;
@@ -102,7 +106,7 @@ header p {
   margin-right: 40px;
   line-height: 0.5em;
 }
-.my-course span p:last-child {
+.my-courses span p:last-child {
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
@@ -112,12 +116,12 @@ header p {
   margin-right: 40px;
   line-height: 0.5em;
 }
-.my-course img:last-child {
+.my-courses img:last-child {
   width: 40px;
   height: 40px;
 }
-.my-course button {
-  width: 120px;
+.my-courses button {
+  width: 23%;
   height: 40px;
   background-color: #000000;
   border-radius: 8px;
@@ -141,10 +145,10 @@ header p {
 
 .arrows {
   width: 96px;
-  position: absolute;
-  margin-left: 750px;
-  margin-top: 262px;
+  margin-left: 524px;
+  margin-top: 20px;
   display: flex;
+
   justify-content: space-between;
 }
 .courses {
@@ -191,7 +195,7 @@ header p {
   flex-direction: column;
 }
 .courses-list div {
-  width: 620px;
+  width: 140%;
   height: 80px;
   background: #f5f5f7;
   border-radius: 14px;
@@ -199,6 +203,7 @@ header p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left: 25px;
 }
 
 .courses-list span p:first-child {
@@ -251,8 +256,27 @@ header p {
   margin-top: 52px;
   margin-left: 35px;
 }
+.notification img:first-child {
+  position: fixed;
+}
 .notification img:last-child {
-  margin-left: 17px;
+  margin-left: 45px;
+}
+.notification-quantity {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  border-radius: 50%;
+  background: #f45b5b;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 22px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.5em;
+  margin-left: 14px;
 }
 .completed {
   position: absolute;
@@ -260,7 +284,7 @@ header p {
   height: 96.33px;
   background: #f5f5f7;
   border-radius: 14px;
-  margin-left: 920.22px;
+  margin-left: 960px;
   margin-top: 118.92px;
   display: flex;
   align-items: center;
@@ -271,13 +295,12 @@ header p {
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
-  margin: 0;
+  margin-right: 11px;
 }
 .completed div:last-child {
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  font-size: 13px;
   color: #000000;
   line-height: 24px;
   font-size: 16px;
@@ -288,7 +311,7 @@ header p {
   height: 96.33px;
   background: #f5f5f7;
   border-radius: 14px;
-  margin-left: 1152px;
+  margin-left: 1200px;
   margin-top: 118.92px;
   display: flex;
   align-items: center;
@@ -300,6 +323,7 @@ header p {
   font-weight: bold;
   font-size: 64px;
   margin: 0;
+  margin-right: 15px;
 }
 .in-progres div:last-child {
   font-family: "Roboto";
@@ -318,7 +342,7 @@ header p {
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
-  margin-left: 923.69px;
+  margin-left: 960px;
   margin-top: 255.29px;
   position: absolute;
 }
@@ -333,7 +357,7 @@ header p {
 .statistic ul {
   margin: 0; /* Обнуляем значение отступов */
   margin-top: 309.54px;
-  margin-left: 923.69px;
+  margin-left: 960px;
   padding: 0;
 }
 .statistic li {
@@ -348,7 +372,7 @@ select {
   position: absolute;
   width: 88px;
   height: 32px;
-  margin-left: 1271.68px;
+  margin-left: 1325px;
   margin-top: 305.54px;
   background: #f5f5f7;
   border-radius: 8px;
@@ -361,17 +385,18 @@ select {
 }
 .statistic-img {
   position: absolute;
-  margin-left: 923.69px;
+  margin-left: 960px;
   margin-top: 367.65px;
 }
 .brain {
   position: absolute;
-  margin-left: 920.06px;
+  margin-left: 960px;
   margin-top: 683px;
   background: #f5f5f7;
   border-radius: 14px;
   width: 440px;
   height: 193px;
+  padding-left: 24px;
 }
 .brain h2 {
   font-family: "Baloo Bhai 2";
